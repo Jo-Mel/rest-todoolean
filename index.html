@@ -13,12 +13,20 @@
     <title>ToDos</title>
   </head>
   <body>
+    <input type="text" id="nuova-voce" placeholder="Inserisci nuovo" />
+    <button class="insert">Inserisci</button>
+
     <ol class="todos"></ol>
 
     <script id="entry-template" type="text/x-handlebars-template">
       <div class="entry">
-        <li data-id={{id}}>
-          {{text}}
+        <li data-id="{{id}}">
+          <span class="todo-txt">
+            {{text}}
+          </span>
+          <span class="del">
+            x
+          </span>
         </li>
       </div>
     </script>

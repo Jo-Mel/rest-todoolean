@@ -1,0 +1,9 @@
+.todo {
+    font-size: 35px;
+}
+
+.del {
+    color: crimson;
+    font-size: 31px;
+    margin-left: 4px;
+}
