@@ -1,3 +1,56 @@
+.page {
+    font-family: 'Charm', cursive;
+    background-image: url(https://www.ppt-backgrounds.net/thumbs/blackboard-frame-slides-backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#nuova-voce {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 4px 22px;
+}
+
+.btn {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    border-color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    color: white;
+
+}
+
+hr {
+    width: 120px;
+    border: 0;
+    border-top: 3px solid white;
+}
+
+.blocknotes {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+
+}
+
 .todo {
     font-size: 35px;
 }
